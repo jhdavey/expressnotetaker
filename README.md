@@ -11,6 +11,10 @@ This app allows the user to write down notes and save them to a local database f
 * [Installation](#Installation)
   
 * [Usage](#Usage)
+
+* [Live App](#Live-Application)
+
+* [Technologies](#Technologies-Used)
   
 * [Contributing](#Contributing)
   
@@ -33,7 +37,36 @@ Here you will see existing notes on the left side of the dashboard. On the right
 You can click on each note on the left side to open the note and view the text. If you'd like to create a new note, simply click the plus icon at the top right. 
 
 To delete an existing note, click the trash can symbol to the right of the note that you would like to delete.
+
+## Live Application
+[Link](https://jhdavey-express-note-taker.herokuapp.com/)
   
+## Technologies Used
+
+<div style="display: inline_block"><br>
+
+  <img height="40" align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <img height="40" align="center" alt="Node.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <img height="40" align="center" alt="Express.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img height="40" align="center" alt="HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img height="40" align="center" alt="CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+
 ## Contributing
   
 Please let me know if you'd like to contribute to my project!
