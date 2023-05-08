@@ -51,10 +51,10 @@ app.delete('/api/notes/:id', (req, res) => {
     fs.readFile(path.join(__dirname, './db/db.json'), 'utf-8', (err, data) => {
         if (err) throw err;
         let notes = JSON.parse(data);
-        notes = notes.filter(note => note.id !== note.Id);
+        notes = notes.filter(note => note.id !== noteId);
         fs.writeFile(path.join(__dirname, './db/db.json'), JSON.stringify(notes), (err) => {
             if (err) throw err;
-            res.json({ id: noteId });
+            res.json(notes);
         })
     })
 });
