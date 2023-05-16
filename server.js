@@ -15,7 +15,6 @@ app.use(express.json());
 app.use(express.static('public'));
 
 //API routes
-
 //Return notes page when requested
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
