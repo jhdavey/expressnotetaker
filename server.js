@@ -12,7 +12,7 @@ const app = express();
 //Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('./public/'));
+app.use(express.static('public'));
 
 //API routes
 //Return notes page when requested
@@ -23,8 +23,10 @@ app.get('/notes', (req, res) => {
 //Get existing notes from database
 app.get('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, './db/db.json'), 'utf-8', (err, data) => {
+        console.log(data);
         if (err) throw err;
         const notes = JSON.parse(data);
+        console.log("notes", notes);
         res.json(notes);
     })
 });
