@@ -25,7 +25,7 @@ app.get('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, './db/db.json'), 'utf-8', (err, data) => {
         if (err) throw err;
         const notes = JSON.parse(data);
-        return res.json(notes);
+        res.json(notes);
     })
 });
 
